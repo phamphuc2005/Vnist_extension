@@ -1,0 +1,86 @@
+.container {
+    max-width: 100%;
+}
+
+.container .row .col-2, .col-8 {
+    padding: 0 10px !important;
+}
+
+.container .row .margin {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container .row .margin-left {
+    /* background-color: red; */
+}
+
+.container .row .margin-right {
+    /* background-color: blue; */
+}
+
+.container .row .col-8 .body {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .row .col-8 .body .nav-item {
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.container .row .col-8 .body .tab-content {
+    background-color: white;
+    border-radius: 5px;
+    min-height: 84.5vh;
+    padding-top: 180px;
+    text-align: center;
+}
+
+.container .row .col-8 .body .tab-content .title {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: gold;
+}
+
+.container .row .col-8 .body .tab-content .sent {
+    margin-top: 30px;
+}
+
+.container .row .col-8 .body .tab-content .sent button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .row .col-8 .body .tab-content input {
+    width: 80%;
+}
+
+.container .row .col-8 .body .tab-content .web-store input {
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.container .row .col-8 .body .tab-content .web-store input:focus-visible {
+    border: none !important;
+}
+
+.container .row .col-8 .body .tab-content .extension input {
+    /* width: 60%; */
+}
+
+.container .row .col-8 .body .tab-content .extension label {
+    top: auto !important;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.container .row .col-8 .body .tab-content .extension label::after {
+    display: none;
+}
